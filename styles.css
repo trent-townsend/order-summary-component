@@ -1,15 +1,43 @@
-body {
+html, body {
+    height: 100%;
     margin: 0;
 }
 
-a {
-    text-decoration: none;
+h1 {
+  margin: 0;
 }
 
-.attribution { 
-    font-size: 11px; 
-    text-align: center; }
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
 
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
+a {
+  text-decoration: none;
+}
+
+.order-summary-container {
+ display: flex;
+ flex-direction: column;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.attribution {
+  font-size: 11px;
+  width: 100%;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
