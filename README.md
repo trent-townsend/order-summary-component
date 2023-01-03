@@ -10,44 +10,41 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-
 
 ## Overview
 
 ### The challenge
 
 Users should be able to:
-
+- Replicate the a order summary component using a mobile first approach
 - See hover states for interactive elements
 
 ### Screenshot
 
-
+#### Mobile layout
+![Screenshot of mobile layout](./images/screenshot-mobile.png)
+#### Desktop layout
+![Screenshot of desktop layout](./images/screenshot-desktop.png)
 
 ### Links
 
-- Live Site URL: 
+- Live Site URL: https://trent-townsend.github.io/order-summary-component/
 - Solution URL: 
+  - [HTML](https://github.com/trent-townsend/order-summary-component/blob/main/index.html)
+  - [CSS](https://github.com/trent-townsend/order-summary-component/blob/main/styles.css)
 
 
 ## My process
-
-
 ### Built with
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile first approach
+- Accessibility in mind
+- Media queries
 
 
-
-
-
-
-
-### Continued development
 
 
 ## Author
