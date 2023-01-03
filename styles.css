@@ -7,7 +7,9 @@ html, body {
     background-image: url('./images/pattern-background-mobile.svg');
     background-color: hsl(225, 100%, 94%);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
+
+    
 }
 
 h1, h2 {
@@ -149,16 +151,11 @@ footer {
 @media (min-width: 500px) {
   html, body {
   background-image: url('./images/pattern-background-desktop.svg');
-  background-position: center;
+  background-position: top;
 
   }
   .order-summary-container {
     max-width: 400px;
-    margin: 2rem;
-  }
-
-  .order-description {
-    padding: 0 5rem;
   }
 
   .plan-selected {
