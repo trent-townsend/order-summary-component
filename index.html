@@ -5,27 +5,36 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./styles.css">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" aria-hidden="true">
 
-  <title>Frontend Mentor | Order summary card</title>
+  <title>Order Summary Card</title>
 
 </head>
 
 <body>
   <main>
     <div class="order-summary-container">
-      <h1>Order Summary</h1>
+      <img src="./images/illustration-hero.svg" class="order-hero" alt="" aria-hidden="true">
+       <div class="order-summary-text">
 
-      <p>You can now listen to millions of songs, audiobooks, and podcasts on any
-        device anywhere you like!</p>
-      <div class="plan-selected">
-        <h2>Annual Plan</h2>
-        $59.99/year
+       <h1>Order Summary</h1>
+     
+        <p class="order-description">You can now listen to millions of songs, audiobooks, and podcasts on any
+          device anywhere you like!</p>
+        <div class="plan-selected">
+          <img src="/images/icon-music.svg" alt="">
+          <span>
+            <h2 class="plan-title">Annual Plan</h2>
+            <span class="price">$59.99/year</span>
+          </span>
 
-        <a href="#">Change</a>
+          <a href="#">Change</a>
+        </div>
+        <div class="order-buttons">
+          <span>Proceed to Payment</span>
+          <span>Cancel Order</span>
+        </div>
       </div>
-      Proceed to Payment
-      Cancel Order
     </div>
   </main>
   <footer>
