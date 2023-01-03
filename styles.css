@@ -5,6 +5,7 @@ html, body {
     margin: 0;
     font-family: Red Hat Display, Arial, Helvetica, sans-serif;
     background-image: url('./images/pattern-background-mobile.svg');
+    background-color: hsl(225, 100%, 94%);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -22,7 +23,6 @@ main {
   justify-content: center;
   align-items: center;
   height: 100%;
-
 }
 
 a {
@@ -45,7 +45,7 @@ a {
  justify-self: flex-end;
  align-self: center;
  flex-basis: content;
- max-width: 100%;
+ min-width: 100%;
 }
 
 .order-summary-text {
@@ -74,7 +74,6 @@ a {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
     background-color: hsl(225, 100%, 98%);
     margin: 1.5rem 1.5rem 0 1.5rem;
     padding: 1rem;
@@ -86,6 +85,7 @@ a {
   font-size: 0.9em;
   font-weight: 700;
   padding-left: 2rem;
+  margin: 1.5rem 0;
   color: hsl(245, 75%, 52%);
 }
 
@@ -144,4 +144,31 @@ footer {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 500px) {
+  html, body {
+  background-image: url('./images/pattern-background-desktop.svg');
+  background-position: center;
+
+  }
+  .order-summary-container {
+    max-width: 400px;
+    margin: 2rem;
+  }
+
+  .order-description {
+    padding: 0 5rem;
+  }
+
+  .plan-selected {
+    position: relative;
+  }
+
+  .change-plan {
+  position: absolute;
+  right: 0;
+  margin-right: 1.5rem;
+  }
+
 }
